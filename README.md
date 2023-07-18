@@ -2,11 +2,20 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+[//]: # (firebase emulators:start) - check local changes pre-deploy
+port: http://localhost:5002/ // firebase app (hosting)
+
+[//]: # (firebase deploy)
+
+[//]: # (poomier-league.web.app) -> https://poomier-league.web.app/
+[//]: # (poomier-league.firebaseapp.com)
+
 ## Available Scripts
 
 In the project directory, you can run:
 
 ### `npm start`
+http://localhost:3000/
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
