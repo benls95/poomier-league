@@ -1,15 +1,6 @@
 {
-  "remoteconfig": {
-    "template": "remoteconfig.template.json"
-  },
-  "emulators": {
-    "hosting": {
-      "port": 5002
-    },
-    "ui": {
-      "enabled": true
-    },
-    "singleProjectMode": true
+  "database": {
+    "rules": "database.rules.json"
   },
   "hosting": {
     "public": "public",

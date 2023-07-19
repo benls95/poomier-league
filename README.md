@@ -3,12 +3,19 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 [//]: # (firebase emulators:start) - check local changes pre-deploy
-port: http://localhost:5002/ // firebase app (hosting)
+port: http://127.0.0.1:4000/ // firebase app (web app)
+port: http://127.0.0.1:4000/database/poomier-league-default-rtdb/data // firebase app (database)
 
 [//]: # (firebase deploy)
 
 [//]: # (poomier-league.web.app) -> https://poomier-league.web.app/
 [//]: # (poomier-league.firebaseapp.com)
+
+github actions (JSON secret)
+[//]: # (FIREBASE_SERVICE_ACCOUNT_POOMIER_LEAGUE)
+
+firebase hosting:channel:deploy preprod
+- see preview channels -> https://console.firebase.google.com/u/0/project/poomier-league/hosting/sites
 
 ## Available Scripts
 
